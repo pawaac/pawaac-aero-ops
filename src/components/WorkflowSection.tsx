@@ -4,23 +4,23 @@ const WorkflowSection = () => {
   const steps = [
     {
       icon: MapPin,
-      title: "Plan Mission",
-      description: "Draw route on map with waypoints and mission parameters"
+      title: "Draw Mission Path",
+      description: "Simple drag-and-drop interface to create custom flight routes with waypoints and patrol areas"
     },
     {
       icon: Plane,
-      title: "Launch & Monitor", 
-      description: "Autonomous flight with real-time video feed and telemetry"
+      title: "Press Go to Launch", 
+      description: "One-click deployment with automated pre-flight checks and instant takeoff authorization"
     },
     {
       icon: Eye,
-      title: "Get AI Alerts",
-      description: "Instant notifications from onboard vision models"
+      title: "Autonomous Execution",
+      description: "Drone executes mission autonomously while streaming live HD video with AI-powered analysis"
     },
     {
       icon: Download,
-      title: "Review & Act",
-      description: "Replay, download, and export mission data for analysis"
+      title: "AI Flags Events",
+      description: "Automatic detection and alerts for incidents, with instant notifications and evidence capture"
     }
   ];
 
@@ -29,10 +29,11 @@ const WorkflowSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Mission-Ready in <span className="text-primary">Minutes</span>
+            From Planning to Action in <span className="text-primary">Under 30 Seconds</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From planning to actionable intelligence, our intuitive workflow gets your team operational fast
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+            Deploy autonomous surveillance operations with the simplicity of a smartphone app, 
+            backed by enterprise-grade AI and military-grade reliability.
           </p>
         </div>
 

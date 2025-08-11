@@ -22,26 +22,56 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
-        <div className="max-w-5xl mx-auto animate-fade-in">
+        {/* Tagline */}
+        <div className="mb-8 animate-fade-in">
+          <p className="text-primary font-semibold text-lg tracking-wide">
+            Engineered for India's Toughest Environments
+          </p>
+        </div>
+
+        <div className="max-w-5xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
-            <span className="bg-gradient-to-r from-foreground via-primary to-accent bg-clip-text text-transparent">
-              Autonomous Aerial Intelligence
-            </span>
+            <span className="text-foreground">Eyes in the Sky.</span>
             <br />
-            <span className="text-foreground/90">for Public Safety & Security</span>
+            <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+              Intelligence on the Ground.
+            </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            From border patrol to crowd monitoring, Pawaac drones combine endurance, autonomy, and AI vision to deliver unmatched operational awareness.
+          <div className="mb-6">
+            <p className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+              <span className="text-primary">Pawaac Drones</span> — Autonomous Aerial Intelligence for Public Safety & Security
+            </p>
+          </div>
+          
+          <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-4xl mx-auto leading-relaxed">
+            Autonomous route execution, AI-powered vision alerts, and field-proven reliability for law 
+            enforcement, coastal security, and emergency response operations across India.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
             <Button className="btn-hero-primary">
-              Request a Demo
+              Request Demo
             </Button>
             <Button variant="outline" className="btn-hero-secondary">
-              View Our Drones
+              See It in Action
             </Button>
+          </div>
+
+          {/* Stats Row */}
+          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto" style={{ animationDelay: '0.6s' }}>
+            <div className="text-center animate-slide-up" style={{ animationDelay: '0.8s' }}>
+              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">24/7</div>
+              <div className="text-sm text-muted-foreground">Autonomous Operations</div>
+            </div>
+            <div className="text-center animate-slide-up" style={{ animationDelay: '0.9s' }}>
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">99.9%</div>
+              <div className="text-sm text-muted-foreground">Mission Success Rate</div>
+            </div>
+            <div className="text-center animate-slide-up" style={{ animationDelay: '1s' }}>
+              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">&lt;30s</div>
+              <div className="text-sm text-muted-foreground">Rapid Deployment</div>
+            </div>
           </div>
         </div>
 

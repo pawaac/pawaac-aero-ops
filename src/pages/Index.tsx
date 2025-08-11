@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import TrustedBySection from "@/components/TrustedBySection";
 import AutonomySection from "@/components/AutonomySection";
+import MissionControlSection from "@/components/MissionControlSection";
 import WorkflowSection from "@/components/WorkflowSection";
 import UseCasesSection from "@/components/UseCasesSection";
 import TechnicalSection from "@/components/TechnicalSection";
@@ -17,6 +18,7 @@ const Index = () => {
         <HeroSection />
         <TrustedBySection />
         <AutonomySection />
+        <MissionControlSection />
         <WorkflowSection />
         <section id="usecases">
           <UseCasesSection />

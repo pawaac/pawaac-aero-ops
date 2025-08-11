@@ -25,23 +25,38 @@ const AutonomySection = () => {
           <div className="space-y-8 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                <span className="text-primary">Autonomy</span> + <span className="text-accent">AI Vision</span>
+                <span className="text-primary">Intelligence That Thinks,</span>
                 <br />
-                <span className="text-foreground">Perfect Precision</span>
+                <span className="text-accent">Systems That Act</span>
               </h2>
               
               <div className="space-y-6 text-lg text-muted-foreground">
                 <p className="leading-relaxed">
-                  Draw your route, tap GO, and watch your drone execute missions with 
-                  <span className="text-primary font-semibold"> centimeter-level precision</span> — 
-                  streaming AI-detected alerts directly to your control panel.
+                  Our advanced AI models process real-time visual data to identify threats, track targets, and alert operators instantly — all while maintaining complete autonomous flight operations.
                 </p>
-                
-                <p className="leading-relaxed">
-                  Our vision models detect, classify, and alert in real-time — from intrusions 
-                  to environmental hazards, ensuring 
-                  <span className="text-accent font-semibold"> nothing goes unnoticed</span>.
-                </p>
+              </div>
+            </div>
+
+            {/* AI Capabilities Grid */}
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-3">
+                <h3 className="text-xl font-semibold text-primary">Simple Route Planning</h3>
+                <p className="text-muted-foreground">Draw mission paths directly on the map interface. Click and deploy with intuitive waypoint system.</p>
+              </div>
+              
+              <div className="space-y-3">
+                <h3 className="text-xl font-semibold text-accent">Autonomous Execution</h3>
+                <p className="text-muted-foreground">Advanced GPS navigation with real-time obstacle avoidance. Zero pilot intervention required.</p>
+              </div>
+              
+              <div className="space-y-3">
+                <h3 className="text-xl font-semibold text-primary">AI Vision Alerts</h3>
+                <p className="text-muted-foreground">Real-time detection of suspicious activities, intrusions, crowd anomalies, and emergency situations.</p>
+              </div>
+              
+              <div className="space-y-3">
+                <h3 className="text-xl font-semibold text-accent">Incident Replay</h3>
+                <p className="text-muted-foreground">Complete mission recordings with AI-generated summaries and automated incident reports.</p>
               </div>
             </div>
 
