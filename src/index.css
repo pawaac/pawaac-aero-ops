@@ -96,7 +96,7 @@
 }
 
 @layer components {
-  /* Hero Button Variants */
+  /* Enhanced Button Variants */
   .btn-hero-primary {
     @apply bg-gradient-to-r from-primary to-accent text-primary-foreground px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-[var(--shadow-glow)] transform-gpu;
   }
@@ -104,6 +104,13 @@
   .btn-hero-secondary {
     @apply border-2 border-primary text-primary bg-transparent px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:bg-primary hover:text-primary-foreground hover:scale-105;
   }
+
+  .btn-enterprise-primary {
+    @apply bg-gradient-to-r from-orange to-orange/80 text-white px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-lg shadow-orange/20;
+  }
+
+  .btn-enterprise-secondary {
+    @apply bg-card border border-border text-foreground px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 hover:bg-muted hover:scale-105;
 
   /* Premium Card Styles */
   .card-premium {
