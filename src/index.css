@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    /* Dark Tech Color Palette */
+    /* Vibrant Dark Tech Color Palette */
     --background: 220 15% 8%;
     --foreground: 210 30% 96%;
 
@@ -27,6 +27,19 @@
 
     --accent: 190 95% 60%;
     --accent-foreground: 220 15% 8%;
+    
+    /* Additional Vibrant Colors */
+    --orange: 25 95% 60%;
+    --orange-foreground: 220 15% 8%;
+    
+    --green: 135 95% 50%;
+    --green-foreground: 220 15% 8%;
+    
+    --purple: 270 95% 65%;
+    --purple-foreground: 220 15% 8%;
+    
+    --cyan: 180 95% 55%;
+    --cyan-foreground: 220 15% 8%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;

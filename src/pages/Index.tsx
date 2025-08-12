@@ -6,7 +6,10 @@ import MissionControlSection from "@/components/MissionControlSection";
 import WorkflowSection from "@/components/WorkflowSection";
 import UseCasesSection from "@/components/UseCasesSection";
 import TechnicalSection from "@/components/TechnicalSection";
+import EnhancedTechnicalSection from "@/components/EnhancedTechnicalSection";
 import ProductShowcase from "@/components/ProductShowcase";
+import ContactSection from "@/components/ContactSection";
+import EnterpriseSection from "@/components/EnterpriseSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
@@ -24,13 +27,16 @@ const Index = () => {
           <UseCasesSection />
         </section>
         <section id="technical">
-          <TechnicalSection />
+          <EnhancedTechnicalSection />
         </section>
         <section id="products">
           <ProductShowcase />
         </section>
+        <section id="enterprise">
+          <EnterpriseSection />
+        </section>
         <section id="contact">
-          <CTASection />
+          <ContactSection />
         </section>
       </main>
       <Footer />
